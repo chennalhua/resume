@@ -1,0 +1,142 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.container h1 {
+  font-size: 80px;
+  margin-top: 50px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+}
+
+.container .person-photo {
+  padding: 48px 0;
+}
+
+.container .title {
+  font-size: 32px;
+  border-bottom: 1px solid black;
+  margin-bottom: 16px;
+}
+
+.container .title span {
+  font-size: 24px;
+  color: #A00404;
+}
+
+.container .profile li:first-child {
+  margin-bottom: 24px;
+}
+
+.info-body {
+  margin-bottom: 72px;
+}
+
+.font {
+  font-size: 24px;
+  line-height: 2;
+}
+
+.skill ul {
+  width: 200px;
+  margin: 0 auto;
+  border-left: 1px solid white;
+  padding-left: 24px;
+}
+
+.work li {
+  margin: 24px 0;
+}
+
+.work p {
+  width: 650px;
+  font-size: 20px;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact a {
+  color: white;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  color: #e9da02;
+}
+
+.contact .social li {
+  display: inline-block;
+  margin: 16px 12px;
+}
+
+.blue-area {
+  background-color: #415165;
+  color: white;
+  padding: 24px 102px;
+}
+
+.blue-area .title {
+  font-size: 32px;
+  border-bottom: 1px solid white;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.blue-area .title span {
+  font-size: 24px;
+  color: white;
+}
+/*# sourceMappingURL=all.css.map */
